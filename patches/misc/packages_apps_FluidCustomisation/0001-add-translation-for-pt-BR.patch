@@ -1,0 +1,136 @@
+From e0a40892775e8a325b13eaf5445f3c2264917dac Mon Sep 17 00:00:00 2001
+From: TheAtt1la <alittauwu@gmail.com>
+Date: Fri, 24 Feb 2023 00:39:18 -0300
+Subject: [PATCH] add translation for pt-BR
+
+---
+ res/values-pt-rBR/strings.xml | 117 ++++++++++++++++++++++++++++++++++
+ 1 file changed, 117 insertions(+)
+ create mode 100644 res/values-pt-rBR/strings.xml
+
+diff --git a/res/values-pt-rBR/strings.xml b/res/values-pt-rBR/strings.xml
+new file mode 100644
+index 0000000..f49c133
+--- /dev/null
++++ b/res/values-pt-rBR/strings.xml
+@@ -0,0 +1,117 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!-- Copyright (C) 2022 Project Fluid
++
++    Licensed under the Apache License, Version 2.0 (the "License");
++    you may not use this file except in compliance with the License.
++    You may obtain a copy of the License at
++
++         http://www.apache.org/licenses/LICENSE-2.0
++
++    Unless required by applicable law or agreed to in writing, software
++    distributed under the License is distributed on an "AS IS" BASIS,
++    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++    See the License for the specific language governing permissions and
++    limitations under the License.
++-->
++
++<resources>
++    <!-- App name -->
++    <string name="customisation_settings_title">Fluid Customisation</string>
++
++    <!-- Home page -->
++    <string name="statusbar_title">Barra de status</string>
++    <string name="statusbar_summary">Ajuste os elementos da barra de status</string>
++    <string name="qs_title">Configurações rápidas</string>
++    <string name="qs_summary">Personalize o painel de configurações rápidas</string>
++    <string name="system_title">Ajustes do sistema</string>
++    <string name="system_summary">Alterar elementos do sistema</string>
++    <string name="misc_title">Diversos</string>
++    <string name="misc_summary">Tudo o que não cabe em outro lugar</string>
++
++    <string name="dark_mode_summary_default">Ativar tema escuro do sistema</string>
++    <string name="dark_mode_summary_powersave">A economia de energia está ativada</string>
++
++    <!-- StatusBar -->
++    <string name="icon_manager_title">Gerenciador de ícones</string>
++    <string name="icon_manager_summary">Controlar a visibilidade dos ícones da barra de status</string>
++    <string name="combined_status_bar_signal_icons_title">Ícones de sinal combinados</string>
++    <string name="combined_status_bar_signal_icons_summary">Ativar ícones de sinal combinados na barra de status</string>
++    <string name="use_old_mobiletype_title">Ícone de celular pequeno</string>
++    <string name="use_old_mobiletype_summary">Mostrar o ícone de celular na parte superior do indicador de sinal</string>
++    <string name="traffic_title">Indicadores de tráfego</string>
++    <string name="network_traffic">Tráfego de rede</string>
++    <string name="network_traffic_state_title">Exibição de tráfego de rede</string>
++    <string name="network_traffic_location">Posicionamento do indicador de tráfego</string>
++    <string name="traffic_disabled">Desabilitado</string>
++    <string name="traffic_statusbar">Barra de status</string>
++    <string name="traffic_expanded_statusbar">Cabeçalho expandido</string>
++    <string name="network_traffic_autohide_threshold_title">Limites de ocultação automática (KB/s)</string>
++    <string name="network_traffic_arrow">Mostrar Setas</string>
++    <string name="network_traffic_arrow_summary">Mostrar as setas do indicador de tráfego de rede</string>
++    <string name="network_traffic_type">Selecione o tipo de atividade</string>
++    <string name="show_network_traffic_combined">Combinado (Upload + Download)</string>
++    <string name="show_network_traffic_dynamic">Dinâmico</string>
++    <string name="show_network_traffic_up">Upload</string>
++    <string name="show_network_traffic_down">Download</string>
++    <string name="show_network_traffic_all">Ambos</string>
++    <string name="nettraf_font_size">Tamanho da fonte</string>
++    <string name="status_bar_clock_title">Configurações de relógio e data</string>
++    <string name="status_bar_clock">Relógio e data</string>
++    <string name="clock_enabled">Habilitado</string>
++    <string name="clock_disabled">Desabilitado</string>
++    <string name="statusbar_clock_style_title">Posição do relógio e da data</string>
++    <string name="statusbar_clock_style_right">Direita</string>
++    <string name="statusbar_clock_style_left">Esquerda</string>
++    <string name="status_bar_clock_style_reset">Redefinir cor</string>
++    <string name="status_bar_show_clock_title">Mostrar relógio e data</string>
++    <string name="status_bar_am_pm_title">AM/PM</string>
++    <string name="status_bar_am_pm_info">O relógio de 24 horas está ativado</string>
++    <string name="clock_seconds_display">Mostrar segundos</string>
++    <string name="enable_clock_weekday">Dia da semana</string>
++    <string name="enable_clock_weekday_summary">Dia abreviado da semana antes da hora</string>
++    <string name="dont_show">Não mostrar</string>
++    <string name="clock_date_display">Data</string>
++    <string name="clock_date_display_summary">Exibir data personalizada antes do relógio</string>
++    <string name="clock_date_style">Estilo de data</string>
++    <string name="clock_date_format">Formato de data</string>
++    <string name="clock_date_string_edittext_title">Deve estar em DateFormat, por exemplo. MM/dd/aa</string>
++    <string name="clock_date_string_edittext_summary">Digite a string</string>
++    <string name="am_pm_clock_normal">Tamanho normal da fonte</string>
++    <string name="am_pm_clock_small">Tamanho de fonte pequeno</string>
++    <string name="am_pm_clock_none">Não mostrar</string>
++    <string name="clock_date_display_none">Não mostrar</string>
++    <string name="clock_date_display_small">Tamanho de fonte pequeno</string>
++    <string name="clock_date_display_normal">Tamanho normal da fonte</string>
++    <string name="clock_date_style_normal">Normal</string>
++    <string name="clock_date_style_lowercase">Minúsculas</string>
++    <string name="clock_date_style_uppercase">Maiúsculas</string>
++    <string name="clock_date_right">A direita do relógio</string>
++    <string name="clock_date_left">A esquerda do relógio</string>
++    <string name="clock_date_position">Posição da data</string>
++
++    <!-- QS -->
++    <string name="qs_brightness_slider_category">Controle deslizante de brilho</string>
++    <string name="qs_brightness_slider_title">Mostrar controle deslizante de brilho</string>
++    <string name="qs_brightness_slider_summary">Mostrar um controle deslizante de brilho no painel de configurações rápidas (é necessário reiniciar o SystemUI)</string>
++    <string name="qs_brightness_position_bottom_title">Mostrar controle deslizante de brilho na parte inferior</string>
++    <string name="qs_brightness_position_bottom_summary">Mostrar um controle deslizante de brilho na parte inferior das configurações rápidas</string>
++    <string name="brightness_icon_title">Botão de brilho automático</string>
++    <string name="brightness_icon_summary">Mostrar botão de brilho automático</string>
++    <string name="quick_qs_brightness_slider_title">Mostrar controle deslizante de brilho no painel de configurações rápidas</string>
++    <string name="quick_qs_brightness_slider_summary">Mostrar um controle deslizante de brilho no painel de configurações rápidas</string>
++
++    <!-- System -->
++    <string name="pocket_judge_title">Detecção de bolso</string>
++    <string name="pocket_judge_summary">Bloquear entradas de tela e botão quando o dispositivo estiver no bolso</string>
++
++    <!-- Misc -->
++    <string name="double_tap_sleep_gesture_title">Toque duas vezes na barra de status para dormir</string>
++    <string name="double_tap_sleep_gesture_summary">Toque duas vezes na barra de status para colocar o dispositivo em repouso</string>
++    <string name="double_tap_sleep_lockscreen_title">Toque duas vezes na tela de bloqueio para dormir</string>
++    <string name="double_tap_sleep_lockscreen_summary">Toque duas vezes em qualquer lugar na tela de bloqueio para colocar o telefone no modo de espera</string>
++    <string name="lockscreen_battery_info_title">Informações de carregamento da tela de bloqueio</string>
++    <string name="lockscreen_battery_info_summary">Mostrar corrente de carga, tensão, potência e temperatura da bateria na tela de bloqueio durante o carregamento</string>
++    <string name="lockscreen_media_blur_title">Nível de desfoque da arte de mídia</string>
++    <string name="show_lockscreen_media_art_title">Mostrar arte de mídia</string>
++    <string name="lockscreen_media_art_options_title">Arte de mídia da tela de bloqueio</string>
++</resources>
+-- 
+2.38.1
+

@@ -1,0 +1,43 @@
+From fe64fc32ae3dceffa0499c00e94a1cb2d26c7bc0 Mon Sep 17 00:00:00 2001
+From: name29 <us1er@gmail.com>
+Date: Fri, 24 Feb 2023 20:29:24 +0100
+Subject: [PATCH] slim
+
+---
+ gms-vendor.mk | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/gms-vendor.mk b/gms-vendor.mk
+index 2beb715..0b752cd 100644
+--- a/gms-vendor.mk
++++ b/gms-vendor.mk
+@@ -94,18 +94,15 @@ PRODUCT_PACKAGES += \
+     TagGoogle \
+     CalculatorGoogle \
+     CalendarGoogle \
+-    Chrome \
+     DeskClockGoogle \
+     GoogleContacts \
+     GoogleContactsSyncAdapter \
+     GoogleLocationHistory \
+     LatinImeGoogle \
+     Messages \
+-    Photos \
+     SpeechServicesByGoogle \
+     TrichromeLibrary \
+     WebViewGoogle \
+-    AndroidAutoStub \
+     CarrierServices \
+     ConfigUpdater \
+     GmsCore \
+@@ -115,7 +112,6 @@ PRODUCT_PACKAGES += \
+     GooglePartnerSetup \
+     GoogleRestore \
+     Phonesky \
+-    Velvet \
+     Wellbeing \
+     GoogleFeedback \
+     GoogleServicesFramework \
+-- 
+2.34.1
+
